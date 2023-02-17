@@ -1,13 +1,2 @@
-// --------- //
-// ABSTRACTS //
-// --------- //
-@import 'abstracts/breakpoints';
-@import 'abstracts/colors';
-@import 'abstracts/fonts';
-@import 'abstracts/typography';
-
-// ---- //
-// BASE //
-// -----//
-@import 'base/core';
-@import 'base/reset';
+@use 'abstracts';
+@use 'base';

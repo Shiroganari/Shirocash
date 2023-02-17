@@ -1,3 +1,7 @@
+@use '../abstracts/breakpoints';
+@use '../abstracts/typography';
+@use '../abstracts/colors';
+
 * {
   box-sizing: border-box;
 }
@@ -7,9 +11,9 @@ html {
   margin: 0;
   padding: 0;
   background-color: #f3f3f3;
-  font-family: $main-font;
-  font-size: $main-font-size + px;
-  color: $main-color;
+  font-family: typography.$main-font;
+  font-size: typography.$main-font-size + px;
+  color: colors.$main-color;
   scroll-behavior: smooth;
 }
 
@@ -27,7 +31,7 @@ a {
 }
 
 .container {
-  max-width: $container-xxl;
+  max-width: breakpoints.$container-xxl;
   margin: 0 auto;
   padding: 0 15px;
 }
