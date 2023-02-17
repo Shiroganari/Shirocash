@@ -1,9 +1,10 @@
 import Header from './Header';
 
-function Layout() {
+function Layout(props) {
   return (
     <>
       <Header />
+      { props.children }
     </>
   )
 }
