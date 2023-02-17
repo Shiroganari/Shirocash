@@ -1,0 +1,9 @@
+@use '../abstracts/typography';
+@use '../utils/mixins';
+
+.logo {
+  font-size: mixins.rem(24);
+  font-weight: bold;
+  letter-spacing: mixins.rem(4);
+  text-transform: uppercase;
+}
