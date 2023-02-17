@@ -1,0 +1,6 @@
+@use '../abstracts/typography';
+
+@function rem($pxValue) {
+  $result: #{($pxValue) / (typography.$main-font-size)}rem;
+  @return $result;
+}
